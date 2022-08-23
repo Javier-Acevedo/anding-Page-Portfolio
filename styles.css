@@ -10,7 +10,7 @@
 }
 
 header {
-    background: gold
+    background: gold;
     height: 100px;
     width: 100%;
     display: flex;
@@ -73,29 +73,61 @@ main {
     color: rgb(87, 198, 35);
 }
 
-#del-medio {
+.esta-parte {
     margin-top: 65px;
     padding: 70px 0;
-    max-width: 1200px;
+    max-width: 1200px;width: 60%;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    
 }
 
-.info {
+
+.izquierda {
     display: flex;
     flex-direction: column;
     gap: 20px;
     width: 50%;
     padding: 24px;
 }
-.imagen {
-    width: 400px;
-    background: rgb(7, 8, 100);
-    padding: 24px;
+
+.izquierda h1 {
+    font-size: 32px;
+    width: 80%;
+    min-width: 300px;
+    font-weight: 400;
+    color: rgb(121, 97, 10);
+}
+
+
+.izquierda p {
+    color: grey;
+}
+
+.izquierda a {
+    color: #21a1c4;
+    background-color: burlywood;
+    width: 100px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.botones {
+    display: flex;
+    gap: 50px;
+}
+
+.derecha {
+    
+    width: 80%;
+    align-items: center;
+    background: white;
+    padding: 15px;
     border-radius: 15px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    flex-direction:row;
+    gap: 100px;
 }
