@@ -8,6 +8,9 @@
     text-decoration: none;
     list-style-type: none;
 }
+body{
+    height: 220vh;
+}
 
 header {
     background: gold;
@@ -109,7 +112,7 @@ main {
 .izquierda a {
     color: #21a1c4;
     background-color: burlywood;
-    width: 100px;
+    width: 150px;
     padding: 8px 0px;
     border-radius: 10px;
     text-align: center;
@@ -117,17 +120,25 @@ main {
 
 .botones {
     display: flex;
-    gap: 50px;
+    gap: 30px;
 }
 
 .derecha {
-    
-    width: 80%;
-    align-items: center;
-    background: white;
-    padding: 15px;
-    border-radius: 15px;
     display: flex;
-    flex-direction:row;
-    gap: 100px;
+    flex-direction:column;
+    width: 50%;
+    align-items: center;
+    padding: 15px;
+    
+    gap: 150px;
+}
+.scroll{
+        margin-top: 25px;
+        padding: 70px 0;
+        max-width: 1200px;
+        width: 60%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
 }
