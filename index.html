@@ -1,79 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>landing page</title>
-    <link rel="stylesheet" href="styles.css">
-  
+    <title>E4-Land_Page</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 
-
 <body>
-    <header class="header">
+     <header class="header">
+            <img class="header__imagen" src="./assets/img/Logo_TV_2015.png" alt="imagen_del_logo">
 
-        <img src="./img/Logo_TV_2015.png" alt="logo" class="logo">
-
-        <nav class="navbar">
-            <ul class="navbar-list">
-                <li><a href="hero.html">inicio</a></li>
-                <li><a href="texto informativo.html">servicios</a></li>
-                <li><a href="#client">clientes</a></li>
-                <li><a href="#contact">contacto</a></li>
-            </ul>
-            <div>
-                <img src="./img/shoppingcart_120371.png" alt="Carrito de compras" class="carro" />
-            </div>               
-        </nav>
-    </header>
-
-        <main>
-          
-            <section class="esta-parte">
-
-                <div class="izquierda">
-                    
-                    <h1>ACA VA UN NOMBRE DEL PRODUCTO (me parece)</h1>
-                    
-                    <p class="parrafo-de-presentacion">
-                        esto es un texto informativo de un producto que no se me ocurre cual pueda ser, esto es un texto
-                        informativo de un producto que no se me ocurre cual pueda ser, esto es un texto informativo de un
-                        producto que no se me ocurre cual pueda ser,esto es un texto informativo de un producto que no se me ocurre cual pueda ser, esto es un texto
-                        informativo de un producto que no se me ocurre cual pueda ser, esto es un texto informativo de un
-                        producto que no se me ocurre cual pueda ser,
-                    </p>
-                    
-                    <div class="botones">
-                        <a href="#"> boton de hacer una cosa</a>
-                        <a href="#"> el otro boton</a>
+             <nav class="navbar">
+                    <ul class="navbar__ul">
+                        <li> <a class= "navbar__ul-li" href="#hero">Inicio</a></li>
+                        <li> <a class= "navbar__ul-li" href="#productos">Productos</a></li>
+                        <li> <a class= "navbar__ul-li" href="#contacto">Contacto</a></li>
+                        <li> <a class= "navbar__ul-li" href="#about">Sobre Nosotros</a></li>
+                     </ul>
+                
+                    <div>
+                        <img class="carrito__imagen" src="./assets/img/shoppingcart_120371.png" alt="">
                     </div>
-               
-                </div>
+             </nav>
+
+    </header>
+<main>
+            
+                <section id="hero">
+                    <div class="hero__div">
+                            <h1>Titulo de la presentacion <span>subtitulo</span></h1>
+
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore illum perspiciatis at tempore consequatur aliquam nulla rerum recusandae incidunt quas expedita voluptatum molestias, iusto distinctio, delectus animi minus consectetur repellat.</p>
+
+
+                            <div class="contenedor_botones" >
+                                    <a class="btn_der" href="#boton_derecho">derecho</a>
+                                    <a class="btn_izq" href="#boton_izquierdo">izquierdo</a>
+                            </div>
+
+                     </div >
+
+                            <img class="hero_img" src="./assets/img/imagenportada.svg" alt="imagen derecha">
+
+                </section>
     
-                <div class="derecha">
-                    <img src="./img/imagenportada.svg" alt="imagen de dos minas">
-                </div>
-            </section>
+    
+    
+                <section id="about">
+                            <p>Lorem, ipsum dolor sit amet 
+                                consectetur adipisicing elit.
+                                 Ipsam, repellendus? Quaerat 
+                                 fuga neque beatae porro, 
+                                 esse dolorem at eligendi 
+                                 amet laboriosam a nesciunt 
+                                 explicabo voluptatum, ducimus
+                                consequatur qui facilis
+                                officiis?Lorem, ipsum dolor
+                                   
 
-            <section class="scroll">
+                            </p>
+                </section>
 
-                <div>
-                  <h2>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-                        Odio ut a deleniti suscipit minus nesciunt nobis, 
-                        enim modi amet optio nisi aspernatur mollitia corporis est 
-                        at reiciendis, fugiat commodi similique.
-                    </p>
-                  </h2>
-                </div>
-            </section>
-        </main>
-    </body>
+                <section id="productos">
+                    <div class="ventajas">
+                            
+                            <h2>Ventajas de trabajar con nosotros</h2>
+                            
+                            <h3>subtitulo de esto</h3>
+                    </div>
+
+
+
+
+                    <div class="cards">
+                                <div class="cards__elements">
+                                    <img class="cards__div-img" src="./assets/img/gato.png" alt="imagen del primer beneficio">
+                                    <h2>beneficio gato </h2>
+                                    <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                                        A debitis reiciendis dolorem quisquam, maiores magnam, 
+                                        repellat dolores culpa aperiam ex!</h3>
+                                </div>
+                                
+                                <div class="cards__elements">
+                                    <img class="cards__div-img" src="./assets/img/perro.png" alt="imagen del segundo beneficio">
+                                    <h2>beneficio perri </h2>
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. I
+                                        ncidunt dolorem neque sequi quo ut facere beatae illum similique 
+                                        deleniti quod!</lorem:20></h3>
+                                </div>
+                                
+                                <div class="cards__elements">
+                                    <img class="cards__div-img" src="./assets/img/pez.png" alt="imagen del tercer beneficio">
+                                    <h2>beneficio pez  </h2>
+                                    <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                         Ea distinctio, laudantium at ab itaque mollitia!</h3>
+                                </div>
+                    </div>
+                    
+
+                </section>
+
+
+                <footer class="footer_container">
+
+                    <section>
+
+                        <div class="footer__contact">
+
+                            <div><h2>Titulo</h2></div>
+                            <div><p>contenido</p></div>
+                            <div>pie de contacto</div>
+                        </div>
+                        
+                        <div class="footer__img_logo_grande">
+                            <img src="./assets/img/Logo_TV_2015.png" alt="">
+                        </div>
+                    </section>
+                    
+                    <div class="footer__footer">
+                        <img class="footer__img" src="./assets/img/Logo_TV_2015.png" alt="">
+                    </div>
+
+                    
+                </footer>
+           
+</main>
+     
+</body>
 </html>
-
-
-
-    
